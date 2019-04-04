@@ -1,0 +1,18 @@
+#mycanvas{
+    width: 1000px;
+    height: 500px;
+    margin: 40px;
+    align-self: center;
+    background-color: black;
+    border: 5px solid red;
+}
+#mydiv{
+    margin-left: 10px;
+    height: 30px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: aqua;
+}
