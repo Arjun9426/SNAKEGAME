@@ -1,8 +1,5 @@
-mydiv2 = document.getElementById("mydiv2");
 function init(){
     canvas=document.getElementById("mycanvas");
-    
-
     pen=canvas.getContext("2d");
     H=canvas.height;
     W=canvas.width;
@@ -57,7 +54,6 @@ function  draw(){
     pen.fillStyle="White";
     pen.font="14px Roboto";
     pen.fillText("SCORE : " + score,10, 10);
-    mydiv2.innerHtml="SCORE : " + score;
 }
 function update(){
     console.log("Update");
